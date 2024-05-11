@@ -2,9 +2,9 @@ FROM centos:latest
 
 MAINTAINER CB
 
-RUN yum install -y ngnix
+RUN yum install ngnix -y
 
-RUN yum insall -y git
+RUN yum insall git -y
 
 CMD ["mkdir /workdirectory"]
 
